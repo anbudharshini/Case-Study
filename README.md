@@ -49,7 +49,7 @@ CarRentalSystem/
 │   └── PropertyUtil.py
 │
 └── db.properties
-
+```
 🔧 Features
 --------------
 Customer Management: Add, update, and manage customer records.
