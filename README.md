@@ -1,4 +1,4 @@
-----------------------------------------------------------🚗 CAR RENTAL SYSTEM---------------------------------------------------------------------------------
+🚗 CAR RENTAL SYSTEM
 📘 Introduction
 ------------------
 The Car Rental System is a terminal-based Python + MySQL application designed to manage vehicle leasing operations.
