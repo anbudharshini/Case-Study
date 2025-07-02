@@ -50,7 +50,7 @@ CarRentalSystem/
 │
 └── db.properties
 ```
-🔧 Features
+🚀 Features
 --------------
 Customer Management: Add, update, and manage customer records.
 
