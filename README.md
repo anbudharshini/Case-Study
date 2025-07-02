@@ -48,7 +48,7 @@ Validations and exceptions are enforced across all user actions.
 
 >>IDE: PyCharm / VS Code
 
-Prerequisites:
+✅ Prerequisites:
 ----------------
 >>pip install mysql-connector-python
 
