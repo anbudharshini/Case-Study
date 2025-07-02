@@ -113,19 +113,6 @@ CarRentalSystem/
 - `Manage DB Connection`
 - `Load Properties from File`
 
-
-⚙️ How It Works
--------------------
-The system launches with a CLI-based menu from main.py.
-
-Based on user input, appropriate services (DAO methods) are triggered.
-
-All data transactions are executed via SQL through MySQL Connector.
-
-Data classes represent real-world objects (Customer, Vehicle, Lease, Payment).
-
-Validations and exceptions are enforced across all user actions.
-
 💻 Technologies Used
 ------------------------
 >>Language: Python 
