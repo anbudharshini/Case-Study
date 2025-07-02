@@ -53,7 +53,7 @@ Validations and exceptions are enforced across all user actions.
 >>pip install mysql-connector-python
 
 >>pip install tabulate
-
+```text
 CarRentalSystem/
 ├── dao/
 │   ├── __init__.py
