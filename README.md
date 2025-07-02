@@ -51,6 +51,7 @@ Validations and exceptions are enforced across all user actions.
 Prerequisites:
 ----------------
 >>pip install mysql-connector-python
+
 >>pip install tabulate
 
 CarRentalSystem/
