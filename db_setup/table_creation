@@ -1,0 +1,62 @@
+create database CaseStudyCRS;
+use CaseStudyCRS;
+
+create table vehicle (
+    vehicleid int auto_increment primary key,
+    make varchar(50),
+    model varchar(50),
+    year int,
+    dailyrate decimal(10, 2),
+    status varchar(15) check (status in ('available', 'notavailable')),
+    passengercapacity int,
+    enginecapacity decimal(10, 2)
+);
+
+create table customer (
+    customerid int auto_increment primary key,
+    firstname varchar(50),
+    lastname varchar(50),
+    email varchar(100),
+    phonenumber varchar(15)
+) auto_increment = 100;
+
+create table lease (
+    leaseid int auto_increment primary key,
+    vehicleid int,
+    customerid int,
+    startdate date,
+    enddate date,
+    type varchar(50) check (type in ('dailylease', 'monthlylease')),
+    foreign key (vehicleid) references vehicle(vehicleid),
+    foreign key (customerid) references customer(customerid)
+) auto_increment = 300;
+
+create table payment (
+    paymentid int auto_increment primary key,
+    leaseid int,
+    paymentdate date,
+    amount decimal(10, 2),
+    foreign key (leaseid) references lease(leaseid)
+) auto_increment = 1000;
+
+DELETE FROM customer;
+DELETE FROM vehicle;
+select * from vehicle;
+select * from customer;
+select * from lease;
+select * from payment;
+DESCRIBE Customer;
+
+ALTER TABLE vehicle AUTO_INCREMENT = 1;
+ALTER TABLE customer AUTO_INCREMENT = 100;
+ALTER TABLE lease AUTO_INCREMENT = 300;
+ALTER TABLE payment AUTO_INCREMENT = 1000;
+
+ALTER TABLE lease DROP FOREIGN KEY lease_ibfk_1;
+
+ALTER TABLE lease
+ADD CONSTRAINT lease_ibfk_1
+FOREIGN KEY (vehicleid)
+REFERENCES vehicle(vehicleid)
+ON DELETE CASCADE;
+
