@@ -70,46 +70,40 @@ Unit Testing: Includes test cases for key components.
 
 📈 Application Workflow
 -------------------------
-👥 Customer Management
-Register new customers
+1. 👤 **Customer Management**
+- `Add New Customer`
+- `Update Customer Details`
+- `Fetch Customer by ID`
+- `Delete Customer`
+- `List All Customers`
 
-View customer profiles
+2. 🚗 **Vehicle Management**
+- `Add New Vehicle`
+- `Update Vehicle Status`
+- `Get Vehicle by ID`
+- `Remove Vehicle`
+- `List Available Vehicles`
 
-Update customer details
+3. 📄 **Lease Management**
+- `Create Lease Agreement`
+- `View Lease by Customer ID`
+- `Update Lease Details`
+- `Calculate Lease Cost`
+- `List All Lease Records`
 
-Delete customer records
+4. 💳 **Payment Processing**
+- `Record Payment`
+- `View Payment History by Customer`
+- `Generate Payment Receipt`
+- `List All Payments`
+- `Compute Total Revenue`
 
-🚘 Vehicle Management
-Add and manage vehicle listings
+5. 🛠️ **Database Setup & Utilities**
+- `Initialize Database Schema`
+- `Insert Initial Data`
+- `Manage DB Connection`
+- `Load Properties from File`
 
-Update vehicle availability and status
-
-View vehicle inventory
-
-📄 Lease Handling
-Create new lease agreements
-
-View existing leases
-
-Calculate lease duration and cost
-
-Terminate or update lease contracts
-
-💳 Payment Processing
-Record payment transactions
-
-View payment history
-
-Generate payment receipts
-
-Calculate total revenue
-
-🛠 Utility Operations
-Initialize and populate database tables
-
-Handle configuration using property files
-
-Modular interaction with MySQL
 
 ⚙️ How It Works
 -------------------
