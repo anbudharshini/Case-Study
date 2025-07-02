@@ -50,23 +50,32 @@ CarRentalSystem/
 │
 └── db.properties
 ```
-🚀 Features
---------------
-Customer Management: Add, update, and manage customer records.
+## 🚀 Features
 
-Vehicle Management: Register and update available vehicles.
+- **👤 Customer Management**  
+  Add, update, and manage customer records.
 
-Lease Management: Create leases with start/end dates and linked customers/vehicles.
+- **🚗 Vehicle Management**  
+  Register and update available vehicles.
 
-Payment Tracking: Record and retrieve payment history and generate revenue reports.
+- **📄 Lease Management**  
+  Create leases with start/end dates and link them to specific customers and vehicles.
 
-Database Integration: Stores persistent records using MySQL.
+- **💳 Payment Tracking**  
+  Record payment details, retrieve payment history, and generate revenue reports.
 
-Custom Exceptions: Graceful error handling for invalid operations.
+- **🛢️ Database Integration**  
+  Stores all persistent records using MySQL for data durability.
 
-Modular Design: Clean separation of concerns using packages like entity, dao, exception, util, and mainmodule.
+- **⚠️ Custom Exceptions**  
+  Handles invalid operations with clean and descriptive error messages.
 
-Unit Testing: Includes test cases for key components.
+- **🧩 Modular Design**  
+  Organized into clear packages like `entity`, `dao`, `exception`, `util`, and `mainmodule`.
+
+- **✅ Unit Testing**  
+  Includes test cases for validating critical modules and operations.
+
 
 📈 Application Workflow
 -------------------------
