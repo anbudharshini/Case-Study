@@ -6,38 +6,7 @@ CAR RENTAL SYSTEM
 
 📁 Folder Structure
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CarRentalSystem/
-│
-├── dao/
-│ ├── init.py
-│ ├── ICarLeaseRepository.py
-│ └── ICarLeaseRepositoryImpl.py
-│
-├── db_setup/
-│ ├── init.py
-│ ├── insert_data.py
-│ └── table_creation
-│
-├── entity/
-│ ├── init.py
-│ ├── Customer.py
-│ ├── Lease.py
-│ ├── Payment.py
-│ └── Vehicle.py
-│
-├── exceptions/
-│ ├── init.py
-│ └── custom_exceptions.py
-│
-├── mainmodule/
-│ ├── init.py
-│ └── main.py
-│
-├── Testing/
-│ ├── init.py
-│ └── TestCRS.py
-│
-└── util/
+
 ├── db.properties
 ├── DBconnection.py
 └── PropertyUtil.py
