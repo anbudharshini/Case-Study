@@ -68,6 +68,49 @@ Modular Design: Clean separation of concerns using packages like entity, dao, ex
 
 Unit Testing: Includes test cases for key components.
 
+📈 Application Workflow
+-------------------------
+👥 Customer Management
+Register new customers
+
+View customer profiles
+
+Update customer details
+
+Delete customer records
+
+🚘 Vehicle Management
+Add and manage vehicle listings
+
+Update vehicle availability and status
+
+View vehicle inventory
+
+📄 Lease Handling
+Create new lease agreements
+
+View existing leases
+
+Calculate lease duration and cost
+
+Terminate or update lease contracts
+
+💳 Payment Processing
+Record payment transactions
+
+View payment history
+
+Generate payment receipts
+
+Calculate total revenue
+
+🛠 Utility Operations
+Initialize and populate database tables
+
+Handle configuration using property files
+
+Modular interaction with MySQL
+
 ⚙️ How It Works
 -------------------
 The system launches with a CLI-based menu from main.py.
